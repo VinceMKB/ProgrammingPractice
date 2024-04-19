@@ -31,9 +31,6 @@ struct BinaryNode
     }
 };
 
-// PostOrder (left, right, data)
-
-
 class Solution
 {
     public:
@@ -73,6 +70,7 @@ class Solution
             InOrderBinaryNode(root -> right); 
         }
 
+        // PostOrder (left, right, data)
         void PostOrderBinaryNode(BinaryNode* root)
         {
             if(root == nullptr)

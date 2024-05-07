@@ -111,6 +111,7 @@ int main()
 
     objSol.PreOrderBinaryNode(root);
     objSol.InOrderBinaryNode(root);
+    objSol.PostOrderBinaryNode(root);
 
 
     cout << "DepthFirstSearch is Working" << endl;

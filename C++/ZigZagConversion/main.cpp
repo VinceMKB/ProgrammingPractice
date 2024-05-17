@@ -53,7 +53,7 @@ int main()
     Solution objSol;
     string s = "PAYPALISHIRING";
     string expectedOutput = "PAHNAPLSIIGYIR";
-    int numRows = 4;
+    int numRows = 3;
 
     cout << "This is the output string: " << objSol.convert(s, numRows) << endl;
 
